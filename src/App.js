@@ -29,7 +29,7 @@ function App() {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      if (!count === 0) {
+      if (count !== 0) {
         setCount(count - 1)
       } else {
         handleMcqStates();
