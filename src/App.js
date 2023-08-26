@@ -29,7 +29,7 @@ function App() {
   
 useEffect(()=>{
 const interval =setInterval(() => {
-    if(!count==0){
+    if(!count===0){
     setCount(count-1)
     }else{
          handleMcqStates() ;
@@ -41,7 +41,7 @@ const interval =setInterval(() => {
 
 const getClass = (id, opt, cOption, array) => {
     for (let n in array) {
-      if (array[n].Id == id) {
+      if (array[n].Id === id) {
         if (opt === cOption)
           return "btn btn-success"
         else
@@ -67,7 +67,7 @@ function handlerClickedObj(id, opt, cOption) {
 
   function handleMcqStates() {
     setMcq(questions.filter((obj) => {
-      if (obj.id == control) {
+      if (obj.id === control) {
         return obj;
       }
     }
@@ -113,7 +113,7 @@ function HandleOptions(q) {
           <div className="card-body">
     
             {questions.map(obj => {
-              if (control == obj.id)
+              if (control === obj.id)
                 return HandleOptions(obj)
             })}
             <button type="button" className="btn btn-secondary my-1" onClick={() => {handleMcqStates()
