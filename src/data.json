@@ -1,0 +1,57 @@
+[
+    {
+        "id": 1,
+        "statement": "Q1-Who is First Governor General of Pakistan?",
+        "options": [
+            "Quaid-e-Azam",
+            "Alama Iqbal",
+            "Shauket Aziz",
+            "Nawab Nasrulla"
+        ],
+        "correctoption":"Quaid-e-Azam"
+    },
+    {
+        "id": 2,
+        "statement": "Q2-Pakistan capital is?",
+        "options": [
+            "Lahore",
+            "Islamabad",
+            "Rawalpindi",
+            "Multan"
+        ],
+        "correctoption":"Islamabad"
+    },
+    {
+        "id": 3,
+        "statement": "Q3-Pakistan Largest mountain peek?",
+        "options": [
+            "Nagaperbat",
+            "koh-e-qraqam",
+            "k-2",
+            "koh-e-suleman"
+        ],
+        "correctoption":"k-2"
+    },
+    {
+        "id": 4,
+        "statement": "Q4-2nd larrgest salt mine existed in which Country?",
+        "options": [
+            "Sri-Lanka",
+            "Pakistan",
+            "India",
+            "Afghanistan"
+        ],
+        "correctoption":"Pakistan"
+    },
+    {
+        "id": 5,
+        "statement": "Q5-In which year won there first ever odi worldcup?",
+        "options": [
+            "1992",
+            "2007",
+            "1996",
+            "2017"
+        ],
+        "correctoption":"1992"
+    }
+]
