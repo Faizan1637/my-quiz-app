@@ -70,7 +70,8 @@ function App() {
       if (obj.id === control) {
         return obj;
       } else {
-        return object = {};
+        object = {};
+        return object;
       }
     }
     ));
